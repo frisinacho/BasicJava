@@ -9,5 +9,6 @@ public class Variables {
         int number;
         double decimal;
         String text;
+        boolean interruptor;
     }
 }
