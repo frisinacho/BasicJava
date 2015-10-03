@@ -8,5 +8,6 @@ public class Variables {
 
         int number;
         double decimal;
+        String text;
     }
 }
