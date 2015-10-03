@@ -10,5 +10,10 @@ public class Variables {
         double decimal;
         String text;
         boolean interruptor;
+
+        number = 5;
+        decimal = 12.3;
+        text = "asdfasdf";
+        interruptor = true;
     }
 }
