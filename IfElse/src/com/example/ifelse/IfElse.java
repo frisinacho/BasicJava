@@ -10,7 +10,7 @@ public class IfElse {
         if (number > 5) {
             System.out.println("The number is greater than 5");
         }else{
-            System.out.println("The number is lower than 5");
+            System.out.println("The number is lower or equal than 5");
         }
     }
 }
