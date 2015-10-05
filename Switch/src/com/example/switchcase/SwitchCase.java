@@ -16,6 +16,8 @@ public class SwitchCase {
             case 10:
             case 12:
                 System.out.println("Has 31 days");
+            default:
+                System.out.println("Doesn't have 31 days");
         }
     }
 }
