@@ -5,6 +5,11 @@ package com.example.switchcase;
  */
 public class SwitchCase {
     public void main(String[] args){
+        int month = 3;
 
+        switch (month){
+            case 1:
+
+        }
     }
 }
