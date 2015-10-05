@@ -9,7 +9,13 @@ public class SwitchCase {
 
         switch (month){
             case 1:
-
+            case 3:
+            case 5:
+            case 7:
+            case 8:
+            case 10:
+            case 12:
+                System.out.println("Has 31 days");
         }
     }
 }
