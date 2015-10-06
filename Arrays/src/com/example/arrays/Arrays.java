@@ -12,5 +12,7 @@ public class Arrays {
         wagons[2] = 20; // 20 passengers in the third wagon
         wagons[3] = 32; // 32 passengers in the forth wagon
         wagons[4] = 10; // 10 passengers in the last wagon
+
+        System.out.println("There are " + wagons[2] + " passengers in the third wagon");
     }
 }
