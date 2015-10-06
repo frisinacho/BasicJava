@@ -8,5 +8,9 @@ public class Arrays {
         int wagons[] = new int[5];
 
         wagons[0] = 23; // 23 passengers in the first wagon
+        wagons[1] = 15; // 15 passengers in the second wagon
+        wagons[2] = 20; // 20 passengers in the third wagon
+        wagons[3] = 32; // 32 passengers in the forth wagon
+        wagons[4] = 10; // 10 passengers in the last wagon
     }
 }
