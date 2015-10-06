@@ -9,7 +9,8 @@ public class Loops {
         int i;
 
         for (i = 0; i < 5; i++){
-
+            wagons[i] = (i + 1) * 10;
+            System.out.println("The " + (i + 1) + " wagon has " + wagons[i] + " passengers.");
         }
     }
 }
