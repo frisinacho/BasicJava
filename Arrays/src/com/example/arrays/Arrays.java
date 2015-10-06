@@ -5,7 +5,7 @@ package com.example.arrays;
  */
 public class Arrays {
     public static void main(String[] args){
-        int wagons[] = new int[5];
+        int wagons[][] = new int[5][2];
 
         wagons[0] = 23; // 23 passengers in the first wagon
         wagons[1] = 15; // 15 passengers in the second wagon
