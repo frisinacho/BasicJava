@@ -13,7 +13,8 @@ public class Loops {
                 if (j == 0) wagons[i][j] = (i + 1) * 10;
                 if (j == 1) wagons[i][j] = wagons[i][0] / 2;
 
-                System.out.println("The " + (i + 1) + " wagon has " + wagons[i] + " passengers.");
+                System.out.println("The " + (i + 1) + " wagon has " + wagons[i][0] + " seating.");
+                System.out.println("The " + (i + 1) + " wagon has " + wagons[i][1] + " passengers.");
             }
         }
     }
