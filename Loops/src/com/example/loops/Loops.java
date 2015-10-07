@@ -6,11 +6,13 @@ package com.example.loops;
 public class Loops {
     public static void main(String[] args){
         int wagons[][] = new int[5][2];
-        int i;
+        int i, j;
 
         for (i = 0; i < 5; i++){
-            wagons[i] = (i + 1) * 10;
-            System.out.println("The " + (i + 1) + " wagon has " + wagons[i] + " passengers.");
+            for (j = 0; j < 2; j++){
+                wagons[i] = (i + 1) * 10;
+                System.out.println("The " + (i + 1) + " wagon has " + wagons[i] + " passengers.");
+            }
         }
     }
 }
