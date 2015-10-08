@@ -34,7 +34,11 @@ public class Train {
     }
 
     public void PutPassengers(int wagon, int passengers){
-        wagons[wagon][1] = wagons[wagon][1] + passengers;
-        System.out.println(passengers + " passengers has been putted into the " + (wagon+1) + " wagon.");
+        if ((wagons[wagon][1] + passengers) > wagons[wagon][0]){
+            System.out.println("There are not enough seats on " + (wagon+1) + " wagon.");
+        }else {
+            wagons[wagon][1] = wagons[wagon][1] + passengers;
+            System.out.println(passengers + " passengers has been putted into the " + (wagon + 1) + " wagon.");
+        }
     }
 }
