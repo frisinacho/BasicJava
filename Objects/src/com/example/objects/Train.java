@@ -27,4 +27,9 @@ public class Train {
         machinist = name;
         antiquity = years;
     }
+
+    public void FillingWagon(int wagon){
+        wagons[wagon][1] = wagons[wagon][0];    // Number of passengers is equal at number of seats
+        System.out.println("The " + (wagon+1) + " has been filled.");
+    }
 }
