@@ -13,5 +13,7 @@ public class Train {
             wagons[i][0] = (i+1) * 10;  // 10 seats per waggon
             wagons[i][1] = 0;           // Empty wagon for start
         }
+
+        machinist = "Anonymous";
     }
 }
