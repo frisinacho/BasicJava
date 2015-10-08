@@ -9,6 +9,9 @@ public class Train {
     int antiquity;
 
     public Train() {
-
+        for (int i = 0; i < 5; i++) {
+            wagons[i][0] = (i+1) * 10;  // 10 seats per waggon
+            wagons[i][1] = 0;           // Empty wagon for start
+        }
     }
 }
