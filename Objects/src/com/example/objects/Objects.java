@@ -6,5 +6,6 @@ package com.example.objects;
 public class Objects {
     public static void main(String[] args){
         Train first = new Train();
+        System.out.println(first.machinist);
     }
 }
