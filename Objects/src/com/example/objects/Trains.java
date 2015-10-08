@@ -6,4 +6,5 @@ package com.example.objects;
 public class Trains {
     int wagons[][] = new int[5][2];
     String machinist;
+    int antiquity;
 }
