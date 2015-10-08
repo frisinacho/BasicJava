@@ -15,5 +15,11 @@ public class WhileLoop {
             }
         }
         System.out.println("There are " + wagons[0][1] + " passengers at the start.");
+
+
+        while (wagons[0][1] < wagons[0][0]){
+            wagons[0][1]++;
+            System.out.println("Now, there are " + wagons[0][1] + " passengers.");
+        }
     }
 }
