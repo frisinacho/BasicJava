@@ -5,6 +5,7 @@ package com.example.whileloop;
  */
 public class WhileLoop {
     public static void main(String[] args){
+        int wagons[][] = new int[5][2];
 
     }
 }
