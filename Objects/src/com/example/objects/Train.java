@@ -32,4 +32,9 @@ public class Train {
         wagons[wagon][1] = wagons[wagon][0];    // Number of passengers is equal at number of seats
         System.out.println("The " + (wagon+1) + " has been filled.");
     }
+
+    public void PutPassengers(int wagon, int passengers){
+        wagons[wagon][1] = wagons[wagon][1] + passengers;
+        System.out.println(passengers + " passengers has been putted into the " + (wagon+1) + " wagon.");
+    }
 }
