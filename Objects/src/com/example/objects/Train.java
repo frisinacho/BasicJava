@@ -17,4 +17,14 @@ public class Train {
         machinist = "Anonymous";
         antiquity = 0;
     }
+
+    public Train(String name, int years) {
+        for (int i = 0; i < 5; i++) {
+            wagons[i][0] = (i+1) * 10;  // 10 seats per waggon
+            wagons[i][1] = 0;           // Empty wagon for start
+        }
+
+        machinist = name;
+        antiquity = years;
+    }
 }
