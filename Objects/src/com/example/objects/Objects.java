@@ -11,5 +11,7 @@ public class Objects {
         Train second = new Train("Nacho", 25);
         System.out.println(second.machinist);
         System.out.println(second.antiquity);
+
+        first.machinist = "New name";
     }
 }
