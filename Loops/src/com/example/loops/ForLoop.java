@@ -3,7 +3,7 @@ package com.example.loops;
 /**
  * Created by Nacho on 6/10/15.
  */
-public class Loops {
+public class ForLoop {
     public static void main(String[] args){
         int wagons[][] = new int[5][2];
         int i, j;
