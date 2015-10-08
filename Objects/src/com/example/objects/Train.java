@@ -15,5 +15,6 @@ public class Train {
         }
 
         machinist = "Anonymous";
+        antiquity = 0;
     }
 }
