@@ -9,5 +9,7 @@ public class Objects {
         System.out.println(first.machinist);
 
         Train second = new Train("Nacho", 25);
+        System.out.println(second.machinist);
+        System.out.println(second.antiquity);
     }
 }
