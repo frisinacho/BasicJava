@@ -7,4 +7,8 @@ public class Train {
     int wagons[][] = new int[5][2];
     String machinist;
     int antiquity;
+
+    public Train() {
+
+    }
 }
