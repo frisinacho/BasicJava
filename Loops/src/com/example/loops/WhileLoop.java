@@ -1,4 +1,4 @@
-package com.example.whileloop;
+package com.example.loops;
 
 /**
  * Created by Nacho on 8/10/15.
