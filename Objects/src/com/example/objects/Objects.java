@@ -13,5 +13,6 @@ public class Objects {
         System.out.println(second.antiquity);
 
         first.machinist = "New name";
+        System.out.println(first.machinist);
     }
 }
