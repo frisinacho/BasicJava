@@ -8,6 +8,7 @@ public class IO {
     public static void main(String[] args){
         try{
             FileWriter file = new FileWriter("example.txt");
+            file.write("Hello world!");
         }catch (Exception ex){ex.printStackTrace();}
     }
 }
