@@ -18,5 +18,9 @@ public class Objects {
         System.out.println(first.wagons[2][1]);
         first.FillingWagon(2);
         System.out.println(first.wagons[2][1]);
+
+        Luxury third = new Luxury();
+        System.out.println(third.machinist);
+        System.out.println(third.waiter);
     }
 }
