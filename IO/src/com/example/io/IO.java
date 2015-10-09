@@ -15,6 +15,7 @@ public class IO {
         try{
             FileReader reader = new FileReader("example.txt");
             BufferedReader BR = new BufferedReader(reader);
+            System.out.println(BR.readLine());
         }catch (Exception ex){ex.printStackTrace();}
     }
 }
