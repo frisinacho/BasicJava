@@ -9,6 +9,7 @@ public class IO {
         try{
             FileWriter file = new FileWriter("example.txt");
             file.write("Hello world!");
+            file.close();
         }catch (Exception ex){ex.printStackTrace();}
     }
 }
