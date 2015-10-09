@@ -11,4 +11,9 @@ public class Luxury extends Train {
         waiter = "Anonymous";
         bar = false;
     }
+
+    public Luxury(String name, boolean state) {
+        waiter = name;
+        bar = state;
+    }
 }
