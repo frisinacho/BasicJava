@@ -11,5 +11,9 @@ public class IO {
             file.write("Hello world!");
             file.close();
         }catch (Exception ex){ex.printStackTrace();}
+
+        try{
+
+        }catch (Exception ex){ex.printStackTrace();}
     }
 }
