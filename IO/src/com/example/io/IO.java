@@ -13,7 +13,8 @@ public class IO {
         }catch (Exception ex){ex.printStackTrace();}
 
         try{
-
+            FileReader reader = new FileReader("example.txt");
+            BufferedReader BR = new BufferedReader(reader);
         }catch (Exception ex){ex.printStackTrace();}
     }
 }
