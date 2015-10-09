@@ -6,4 +6,9 @@ package com.example.objects;
 public class Luxury extends Train {
     String waiter;  // Name of the waiter
     boolean bar;    // Open or Close
+
+    public Luxury() {
+        waiter = "Anonymous";
+        bar = false;
+    }
 }
