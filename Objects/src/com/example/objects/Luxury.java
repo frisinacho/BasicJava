@@ -20,10 +20,9 @@ public class Luxury extends Train {
     public void StatusBar(boolean state){
         bar = state;
 
-        if (bar){   // bar == true
+        if (bar)   // bar == true
             System.out.println("The bar is open");
-        }else{
+        else
             System.out.println("The bar is close");
-        }
     }
 }
