@@ -16,4 +16,8 @@ public class Luxury extends Train {
         waiter = name;
         bar = state;
     }
+
+    public void StatusBar(boolean state){
+        bar = state;
+    }
 }
