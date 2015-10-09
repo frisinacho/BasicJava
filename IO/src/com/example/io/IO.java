@@ -7,7 +7,7 @@ import java.io.*;
 public class IO {
     public static void main(String[] args){
         try{
-
+            FileWriter file = new FileWriter("example.txt");
         }catch (Exception ex){ex.printStackTrace();}
     }
 }
