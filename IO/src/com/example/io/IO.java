@@ -6,6 +6,8 @@ import java.io.*;
  */
 public class IO {
     public static void main(String[] args){
+        try{
 
+        }catch (Exception ex){ex.printStackTrace();}
     }
 }
